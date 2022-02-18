@@ -21,6 +21,6 @@ exp.post("/Sum",(req,res)=>{
     resultvar=no1+no2 
     res.json({"Number 1":no1,"Number 2":no2,"Result":resultvar})
 })
-exp.listen(3001,()=>{
+exp.listen(process.env.PORT||3001,()=>{
     console.log("Server Running...")
 })
