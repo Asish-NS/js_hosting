@@ -1,0 +1,15 @@
+{
+  "name": "api_creation",
+  "version": "1.0.0",
+  "description": "test second program",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Asish",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  }
+}
